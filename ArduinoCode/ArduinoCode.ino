@@ -8,7 +8,7 @@ float analogValue;
 
 void loop() {
   // put your main code here, to run repeatedly:
-  analogValue = analogRead(POTENTIOMETER) * 5.0 / 1024.0;
+  analogValue = analogRead(POTENTIOMETER) * 5.0 / 1024.0; //Conversión para lectura de 5V
   Serial.println(analogValue);
   delay(500);
 }
